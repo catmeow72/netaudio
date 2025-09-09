@@ -1,0 +1,17 @@
+.{
+    .name = .macos_record,
+    .version = "0.0.0",
+    .fingerprint = 0x38cc22688de753fe, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.15.1",
+    .dependencies = .{
+        .clap = .{
+            .url = "git+https://github.com/Hejsil/zig-clap.git?ref=0.11.0#5289e0753cd274d65344bef1c114284c633536ea",
+            .hash = "clap-0.11.0-oBajB-HnAQDPCKYzwF7rO3qDFwRcD39Q0DALlTSz5H7e",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
